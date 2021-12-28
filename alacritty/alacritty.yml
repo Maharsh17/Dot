@@ -30,8 +30,8 @@ font:
     style: Italic
   size: 12
 
-shell:
-  program: /bin/zsh
-  args:
-    - --login
+# shell:
+#   program: /bin/zsh
+#   args:
+#     - --login
 
