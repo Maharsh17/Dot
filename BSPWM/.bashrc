@@ -6,4 +6,5 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+cd ~
 eval "$(starship init bash)"
