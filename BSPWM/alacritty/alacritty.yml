@@ -4,7 +4,7 @@ import:
 # Window Customization
 window:
   dimensions:
-    columns: 140
+    columns: 100
     lines: 38
   padding:
     x: 10
@@ -30,8 +30,8 @@ font:
     style: Italic
   size: 12
 
-# shell:
-#   program: /bin/zsh
-#   args:
-#     - --login
+shell:
+   program: /bin/bash
+   args:
+     - --login
 
