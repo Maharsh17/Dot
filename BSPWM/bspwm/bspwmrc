@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 nitrogen --set-zoom-fill ~/Wall/base.png &
-picom -f &
+picom -f --experimental-backend &
 dunst &
 ~/.config/polybar/launch.sh --docky &
 
