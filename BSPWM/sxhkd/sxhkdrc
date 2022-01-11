@@ -120,6 +120,10 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
+#
+# custom keys
+#
+
 XF86AudioLowerVolume
         pactl set-sink-volume 0 -5%
 
@@ -128,3 +132,7 @@ XF86AudioRaiseVolume
 
 XF86AudioMute
         pactl set-sink-mute 0 toggle
+
+Print
+        scrot ~/Pictures/"Screenshot $(date).png"  && dunstify "Screenshot" "Screenshot Saved!"
+
