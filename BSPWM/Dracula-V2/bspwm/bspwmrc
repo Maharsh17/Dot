@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 nitrogen --set-zoom-fill ~/Wall/base.png &
 picom -f --experimental-backend &
 dunst &
-~/.config/polybar/launch.sh --docky &
+~/.config/polybar/launch.sh &
 
 bspc monitor -d I II III IV V
 
