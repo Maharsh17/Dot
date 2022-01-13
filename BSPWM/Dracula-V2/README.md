@@ -15,17 +15,6 @@ Dot Files For BSPWM + SXHKD + Polybar + Rofi And Many Others
 
 ## Used Applications
 
-Terminal    - alacritty
-
-Bar         - polybar
-
-Launcher    - rofi
-
-Compositor  - picom-jonaburg-git
-
-GTK Theme   - Dracula
-
-
 | Type        | Application           |
 | ------------| ----------------------|
 | Terminal    | alacritty             |
