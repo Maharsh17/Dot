@@ -25,3 +25,14 @@ Compositor  - picom-jonaburg-git
 
 GTK Theme   - Dracula
 
+
+| Type        | Application           |
+| ------------| ----------------------|
+| Terminal    | alacritty             |
+| Bar         | polybar               |
+| Launcher    | rofi                  |
+| Compositor  | picom-jonaburg-git    |
+| GTK Theme   | Dracula               |
+
+
+  
