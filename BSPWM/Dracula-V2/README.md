@@ -10,7 +10,7 @@ Dot Files For BSPWM + SXHKD + Polybar + Rofi And Many Others
 ![Launcher](https://raw.githubusercontent.com/Maharsh17/Archive/main/Screenshot/Dracula-V2/Launcher.png "Launcher")
 
 ## Power
-![Power](https://raw.githubusercontent.com/Maharsh17/Archive/main/Screenshot/Dracula-V2/Power.png "Power")\
+![Power](https://raw.githubusercontent.com/Maharsh17/Archive/main/Screenshot/Dracula-V2/Power.png "Power")
 
 
 ## Used Applications
