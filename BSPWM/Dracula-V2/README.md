@@ -22,6 +22,8 @@ Dot Files For BSPWM + SXHKD + Polybar + Rofi And Many Others
 | Launcher    | rofi                  |
 | Compositor  | picom-jonaburg-git    |
 | GTK Theme   | Dracula               |
+| Icon        | Papirus               |
+| Fonts       | Jet Brains and Iosevka|
 
 
   
