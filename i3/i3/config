@@ -111,13 +111,13 @@ bindsym XF86MonBrightnessDown exec light -U 1
 gaps inner 10
 
 exec_always --no-startup-id picom -f --experimental-backend 
-exec_always --no-startup-id nitrogen --set-zoom-fill ~/Wall/archlinux.png
+exec_always --no-startup-id nitrogen --set-zoom-fill ~/Wall/gruv-abstract.png
 
-client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
+client.focused          #d4be98 #d4be98 #ffffff #d4be98
 client.unfocused        #2e3440 #1f222d #888888 #1f222d
-client.focused_inactive #2e3440 #1f222d #888888 #1f222d
-client.placeholder      #2e3440 #1f222d #888888 #1f222d
-client.urgent           #900000 #900000 #ffffff #900000
+# client.focused_inactive #2e3440 #1f222d #888888 #1f222d
+# client.placeholder      #2e3440 #1f222d #888888 #1f222d
+# client.urgent           #900000 #900000 #ffffff #900000
 
 client.background       #242424
 

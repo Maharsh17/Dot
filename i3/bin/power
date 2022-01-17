@@ -1,0 +1,9 @@
+#!/bin/sh
+chosen=$(printf "Power Off\nReboot\nLogout\n" | rofi -dmenu -p "Powermenu" -i -no-lazy-grab -show -theme power)
+
+case "$chosen" in
+  "Power Off") poweroff ;;
+  "Reboot") reboot ;;
+  "Logout") killall bspwm ;;
+  *) exit 1 ;;
+esac 
