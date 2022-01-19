@@ -1,5 +1,5 @@
-# Dracula Version-2 Dotfile
-Dot Files For BSPWM + SXHKD + Polybar + Rofi And Many Others
+# Gruvbox Dotfile
+Dot Files For i3 WM + Polybar + Rofi And Many Others
 
 
 ## Terminal
