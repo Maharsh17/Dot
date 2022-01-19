@@ -110,9 +110,9 @@ bindsym XF86MonBrightnessDown exec light -U 1
 for_window [class="^.*"] border pixel 0
 gaps inner 10
  
-exec_always --no-startup-id picom -f --experimental-backend 
+exec_always --no-startup-id picom 
 exec_always --no-startup-id nitrogen --set-zoom-fill ~/Wall/gruv-abstract.png
-exec_always --no-startup-id polybar example
+exec_always --no-startup-id ~/.config/polybar/docky/launch.sh
 
 
 client.focused          #d4be98 #d4be98 #ffffff #d4be98
@@ -128,3 +128,4 @@ default_border pixel 2
 default_floating_border pixel 4
 
 border_radius 10
+gaps bottom 40
