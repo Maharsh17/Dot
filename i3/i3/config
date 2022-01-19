@@ -107,11 +107,13 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86MonBrightnessUp exec light -A 1 
 bindsym XF86MonBrightnessDown exec light -U 1 
 
-#for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 gaps inner 10
-
+ 
 exec_always --no-startup-id picom -f --experimental-backend 
 exec_always --no-startup-id nitrogen --set-zoom-fill ~/Wall/gruv-abstract.png
+exec_always --no-startup-id polybar example
+
 
 client.focused          #d4be98 #d4be98 #ffffff #d4be98
 client.unfocused        #2e3440 #1f222d #888888 #1f222d
@@ -125,8 +127,4 @@ client.background       #242424
 default_border pixel 2
 default_floating_border pixel 4
 
-# title_window_icon yes
-# title_window_icon padding 10
-for_window [all] title_window_icon on
-
-# bindsym $mod+p title_window_icon on
+border_radius 10
